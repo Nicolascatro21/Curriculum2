@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
     <style>
+        
+
+        body{
+            background-color: red;
+        }
+
         .container{
             background-color: #c3c3c3;
             width: 100%;
@@ -32,9 +38,49 @@
         #three{
             background-color: aqua;
         }
+
+        /* MEDIA QUERYS*/
+        @media screen and (max-width:1200px) {
+            body{
+                background-color: green;
+            }
+            h1{
+                color: orange;
+                background-color: blue;
+                width: 50%;
+            }
+            
+        }
+
+        @media screen and (max-width:1000px) {
+            body{
+                background-color: aqua;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            body{
+                background-color: purple;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            body{
+                background-color: chocolate;
+            }
+            #two{
+            background-color: darkgoldenrod;
+            order: 2;
+            }
+        }
+        
+        
+        
+
     </style>
 </head>
 <body>
+    <h1>NICOLAS CASTRO</h1>
     <div class="container">
         <div class="element" id="one">#1</div>
         <div class="element" id="two">#2</div>
