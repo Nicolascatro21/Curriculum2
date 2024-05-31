@@ -1,0 +1,73 @@
+<!DOCTUTTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<input type="text" id="valores" disabled>
+    <button onclick="agregar()">AGREGAR</button>
+    <button onclick="eliminar()">ELIMINAR</button>
+    <button onclick="limpiar()">LIMPIAR</button>
+    <button onclick="imp_rever()">REVERSE</button>
+    <br>
+    <input type="text" id="valoresP">
+    <button onclick="agregarP()">AGREGAR</button>
+    <button onclick="eliminarP()">ELIMINAR</button>
+
+<body onload="load_page()">
+
+    <div>
+        <div>
+            <label for="">Name</label>
+            <input type="text" id="name" autocomplete="off">
+        </div>
+        <div>
+            <label for="">LastName</label>
+            <input type="text" id="last_name" autocomplete="off">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" id="password" autocomplete="off">
+        </div>
+        <div>
+            <label for="">RepeatPassword</label>
+            <input type="password" id="password2" autocomplete="off">
+        </div>
+        <div>
+            <button onclick="send_info()">ENVIAR</button>
+        </div>
+        <div id="print"></div>
+    </div>
+
+    <div id="print_age">
+        <input type="text">
+    </div>
+        <br><br><br>
+
+
+
+
+    <input type="text" id="name_one" placeholder="Escriba su primer nombre">
+    <input type="text" id="naem_two" placeholder="Escriba su segundo nombre">
+    <button onclick="send_name()">ENVIAR</button>
+    <input type="text" id="search_var" size="2" placeholder="Ingrese un numero">
+<br>
+<div>
+    <input type="text" id="fecha" size="50" disabled>
+    <label for="">Fechas</label>
+    <label for="" id="dia"></label>
+    <label for="" id="año"></label>
+    <label for="" id="mes"></label>
+    <label for="" id="dia_mes"></label>
+    <label for="" id="hora"></label>
+    <label for="" id="minute"></label>
+</div>
+    <!--ARCHIVO DE JS-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/funtcions.js"></script>
+    <!--<script>
+        alert("HOLA SOY UN ALERT")
+    -->
+</body>
+</html>
