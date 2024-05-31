@@ -83,7 +83,7 @@ nav{
     line-height: 80px;
 }
 
-titulospro{
+.titulospro{
     text-align: left;
     margin: 20px 0;
 }
@@ -103,6 +103,7 @@ titulospro{
     height: 300px;
     margin-left: 50px;
     animation: ease-in animacion 0.5s;
+    border-radius: 7%;
 }
 
 @keyframes animacion{
@@ -371,7 +372,6 @@ titulospro{
         display: flex;
         align-items: center;
         flex-direction: column;
-        clip-path: circle(0.0% at 0 0);
     }
 
     .nav .enlaces-header a{
@@ -382,11 +382,11 @@ titulospro{
         margin-top: 20px;
         width: 50%;
         text-align: center;
+        clip-path: circle(0.0% at 0 0);
     }
     .nav .enlaces-header a:hover{
         color: #d03d3d;
         background-color: #fff;
-        transition: ;
     }
     .hamburguer{
         display: block;
